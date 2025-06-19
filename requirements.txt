@@ -1,0 +1,8 @@
+# requirements.txt
+
+pandas
+numpy
+great_expectations
+python-dotenv
+azure-storage-blob
+scikit-learn
