@@ -19,8 +19,8 @@ def generate_iot_data(num_rows=1000):
 
     df = pd.DataFrame(data)
     
-    os.makedirs("azure_simulation/raw", exist_ok=True)
-    df.to_csv("azure_simulation/raw/iot_raw.csv", index=False)
+    os.makedirs("../azure_simulation/raw", exist_ok=True)
+    df.to_csv("../azure_simulation/raw/iot_raw.csv", index=False)
     print("✅ Raw data generated and saved to azure_simulation/raw/iot_raw.csv")
 
 if __name__ == "__main__":
